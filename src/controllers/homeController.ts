@@ -8,8 +8,8 @@ export const home = (req: Request, res: Response) => {
   async function main() {
     const user = await prisma.user.create({
       data: {
-        name: 'Abner Siqueira de Oliveira',
-        email: 'abnersoliveira@gmail.com',
+        name: 'Clarice Oliveira',
+        email: 'clariceoliveira@gmail.com',
       },
     })
     console.log(user)
